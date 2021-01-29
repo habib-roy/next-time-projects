@@ -31,13 +31,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
         <?=
             $form->field($model, 'login', [
-                'inputOptions' => ['autofocus' => 'autofocus', 'class' => 'form-control text-center', 'tabindex' => '1', 'placeholder' => 'EMAIL/NIK']
+                'inputOptions' => ['autofocus' => 'autofocus', 'class' => 'form-control text-center', 'tabindex' => '1', 'placeholder' => 'username']
             ])->label(false);
         ?>
 
         <?=
             $form->field($model, 'password', [
-                'inputOptions' => ['class' => 'form-control text-center', 'tabindex' => '2', 'placeholder' => 'PASSWORD']
+                'inputOptions' => ['class' => 'form-control text-center', 'tabindex' => '2', 'placeholder' => 'password']
             ])->passwordInput()->label(false);
         ?>
 
